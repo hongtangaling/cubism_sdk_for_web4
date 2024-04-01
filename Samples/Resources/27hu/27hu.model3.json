@@ -1,0 +1,62 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "27hu.moc3",
+    "Textures": [
+      "27hu.8192/texture_00.png"
+    ],
+    "Physics": "27hu.physics3.json",
+    "DisplayInfo": "27hu.cdi3.json",
+    "Expressions": [
+		{
+			"Name": "erhuan.exp3",
+			"File": "expression/erhuan.exp3.json"
+		},
+		{
+			"Name": "pake.exp3",
+			"File": "expression/pake.exp3.json"
+		},
+		{
+			"Name": "toufa.exp3",
+			"File": "expression/toufa.exp3.json"
+		}
+	],
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/daiji.motion3.json"
+        }
+      ],
+      "TapBody": [
+        {
+          "File": "motions/quan.motion3.json"
+        },
+        {
+          "File": "motions/quan2.motion3.json"
+        }
+      ]
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": []
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": []
+    }
+  ],
+  "HitAreas": [
+    {
+      "Id": "HitArea",
+      "Name": "Head"
+    },
+    {
+      "Id": "HitArea2",
+      "Name": "Body"
+    }
+  ]
+}
